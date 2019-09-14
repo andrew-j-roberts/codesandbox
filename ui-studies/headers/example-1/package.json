@@ -1,0 +1,27 @@
+{
+  "name": "header-studies-example-1",
+  "version": "0.0.0",
+  "description": "Themeable reactive/responsive header, implemented with Chakra UI",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Andrew Roberts",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "dependencies": {
+    "@chakra-ui/core": "^0.2.6",
+    "@emotion/core": "^10.0.17",
+    "@emotion/styled": "^10.0.17",
+    "core-js": "^3.2.1",
+    "emotion-theming": "^10.0.17",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "regenerator-runtime": "^0.13.3"
+  }
+}
